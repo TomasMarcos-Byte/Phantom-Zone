@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background: radial-gradient(circle, #001020, #000814, #000000);
+    font-family: 'Orbitron', sans-serif;
+    color: #cfe2ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 30px;
+    border-radius: 20px;
+    border: 2px solid #4d80ff;
+    box-shadow: 0 0 20px #3d6dff;
+    width: 300px;
+    text-align: center;
+}
+
+.login-container h2 {
+    margin-bottom: 20px;
+    color: #bcd4ff;
+}
+
+label {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    border: 2px solid #4d80ff;
+    background-color: #000c1a;
+    color: #cfe2ff;
+    outline: none;
+}
+
+input:focus {
+    box-shadow: 0 0 10px #4d80ff;
+}
+
+.btn-login {
+    width: 100%;
+    padding: 10px;
+    border-radius: 15px;
+    border: 2px solid #4d80ff;
+    background-color: transparent;
+    color: #cfe2ff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    text-decoration: none;   /* ← quita el subrayado */
+    display: inline-block;   /* opcional: ayuda a que se vea como botón */
+}
+
+.btn-login:hover {
+    background-color: #4d80ff;
+    color: white;
+    box-shadow: 0 0 15px #4d80ff;
+}
+.login-container {
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 30px;
+    border-radius: 20px;
+    border: 2px solid #4d80ff;
+    box-shadow: 0 0 20px #3d6dff;
+    width: 500px;       /* ← ANTES 300 */
+    text-align: center;
+}
+
